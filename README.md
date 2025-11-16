@@ -27,7 +27,7 @@ A command-line tool for preprocessing genomic sequence files (FASTA/FASTQ) with 
 
 ## Installation
 
-### Prerequisites
+### ☑︎ Prerequisites
 
 - Python 3.x
 
@@ -169,7 +169,7 @@ python3 fastx_pp.py --input reads.fastq --output reads_clean.fastq --operation a
  Total adaptors found & removed: 856
 =================================================================
 ```
-## Error Handling
+## ⚠️ Error Handling
 
 The tool includes comprehensive error handling for:
 - Invalid file paths or permissions
@@ -186,8 +186,7 @@ fastx-pp is optimized for efficiency and can process large sequence files with m
 
 ---
 
-## Repository Structure
-
+## 📁 Repo Structure
 ```
 fastx-pp/
 ├── fastx_pp.py       # Main script
