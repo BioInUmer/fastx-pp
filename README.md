@@ -1,4 +1,4 @@
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/6711c199-1e23-4574-bdff-a61b60d0f7f5" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/6711c199-1e23-4574-bdff-a61b60d0f7f5" />
 
 # fastx-pp
 
