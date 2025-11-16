@@ -23,6 +23,8 @@ A command-line tool for preprocessing genomic sequence files (FASTA/FASTQ) with 
 
 > 📄 For detailed information about each function, implementation details, and comprehensive usage instructions, please refer to the **Report.pdf** document included in this repository. **Note: RUScript.sh = samurai.sh**
 
+---
+
 ## Installation
 
 ### Prerequisites
@@ -167,10 +169,24 @@ python3 fastx_pp.py --input reads.fastq --output reads_clean.fastq --operation a
  Total adaptors found & removed: 856
 =================================================================
 ```
+## Error Handling
+
+The tool includes comprehensive error handling for:
+- Invalid file paths or permissions
+- Incorrect file formats
+- Invalid command-line arguments
+- Trimming lengths exceeding sequence length
+- Invalid nucleotide sequences
 
 ---
 
-## File Structure
+## Performance
+
+fastx-pp is optimized for efficiency and can process large sequence files with minimal memory footprint by reading files line-by-line rather than loading entire files into memory.
+
+---
+
+## Repository Structure
 
 ```
 fastx-pp/
@@ -181,21 +197,6 @@ fastx-pp/
 ├── sample.fastq      # Sample FASTQ file
 └── LICENSE           # License file
 ```
-
----
-
-## Error Handling
-
-The tool includes comprehensive error handling for:
-- Invalid file paths or permissions
-- Incorrect file formats
-- Invalid command-line arguments
-- Trimming lengths exceeding sequence length
-- Invalid nucleotide sequences
-
-## Performance
-
-fastx-pp is optimized for efficiency and can process large sequence files with minimal memory footprint by reading files line-by-line rather than loading entire files into memory.
 
 ---
 
