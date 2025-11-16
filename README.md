@@ -1,4 +1,6 @@
-# fastx-pp <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/88fa1f67-3200-4f10-a648-55401faf315e" />
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/6711c199-1e23-4574-bdff-a61b60d0f7f5" />
+
+# fastx-pp
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
